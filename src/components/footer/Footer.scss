@@ -1,0 +1,42 @@
+.foter {
+  width: 100%;
+  padding: 0.2px;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  gap : 15px; 
+  bottom: 0;
+  text-align: center;
+  z-index: 50;
+  background-color: rgb(46, 15, 15); /* Replace with your desired color */
+  color: white;
+  letter-spacing: 2px;
+
+  h3 {
+    font-size: 14px; /* Adjust the font size as needed */
+    margin: 0;
+    padding: 0;
+    color: white;
+    span {
+      color: red; /* Replace with your desired color */
+    }
+    &:hover {
+      color:red;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin-top: 2px;
+    &:hover {
+      color: pink; /* Replace with your desired hover color */
+    }
+
+    .cursor-pointer {
+      cursor: pointer;
+    }
+  }
+}
